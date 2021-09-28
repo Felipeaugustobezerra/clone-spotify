@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.clear{
+    clear: both;
+}
+header .container{
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px;
+}
+.container .logo {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+.container .logo span{
+    font-size: 30px;
+    display: flex;    
+}
+.container .logo i{
+    font-size: 40px;
+    padding-right: 5px;
+    
+}
+.container .navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .navbar a{
+    color: white;
+    text-decoration: none;
+    padding:10px;
+    font-weight: bold;
+}
+
+.navbar nav a:hover{
+ color:#1ED761;
+}
+
+.container-2{
+    display: block;
+    background-color: #FAC95C ;
+    padding: 50px;
+    padding-right: 20px;
+    width: auto;
+}
+.container-2 h1{
+    padding: 10px;
+    font-weight: 900px;
+    font-size: 2.5em;
+   
+}
+.container-2 h3{
+    padding: 15px;
+    font-size: 1.2em;
+}
+
+.container-2 button{
+    margin-top: 40px;
+    background-color: black;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border: 0px;
+    border-radius: 50px;
+    width: 15%;
+    cursor: pointer;
+}
+.container-2 .termos{
+    padding-top: 30px;
+    width: 50%;
+    font-size: 13px;
+   
+}
+.container-2 a.link{
+    color: black;
+}
+.container-3{
+    text-align: center;
+    padding: 100px;
+}
+.container-3 li{
+    list-style: none;
+}
+.container-3 p{
+    padding: 5px;
+}
+.container-3 .title-1{
+    font-size: 22px;
+}
+.container-3 h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+    padding-bottom: 50px;
+    
+}
+.container-3 .beneficos-premium{
+display: grid;
+grid-template-columns: repeat(4 ,1fr);
+justify-content: center;
+margin: 2px;
+padding:2px;
+
+
+} .container-3 .beneficos-premium img{
+ width: 50%;
+ padding-left: 20px 20px;
+ padding-bottom: 30px;
+ align-items: center;
+ border-radius: 50%;
+}
+
+
+.container-4{
+    background-color: #EFEFEF;
+    padding: auto 5px;
+    
+}
+.container-4 h1{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+.container-4 .title-2{
+    text-align: center;
+    padding-bottom: 30px;font-weight: 500;
+}
+.container-4 .caixas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 2px;
+    padding: 2px;
+
+}
+.container-4 .planos{
+    
+    background-color: white;
+    box-shadow: rgb(255 255 255) 0px 0px 0px 0px, rgb(0 0 0 / 30%) 0px 0px 8px;
+    border-radius: 5px;
+    width: 85%;
+    margin-left: 25px;
+    margin-bottom: 60%;
+    padding: 0px;
+    
+    
+  
+}
+.container-4 .individual{
+    height: 700px;
+    
+}
+.container-4 .informacion{
+    border-bottom: 2px solid black;
+    margin: 10px;
+}
+.container-4 .lista-planos{
+    list-style: none;
+}
+.container-4 .lista-planos i{
+    padding-left: 10px;
+
+}
+.container-4 .lista-planos p{
+    position: relative;
+    left: 40px;
+    bottom: 20px;
+    width: 80%;
+    
+}
+.container-4 .individual h4{
+    background-color:#2E77D0;
+    border-radius: 5px;
+    width: 70%;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.container-4 .individual .pay-unico{
+    border: 2px solid #2E77D0;
+    border-radius: 5px;
+    width: 90%;
+    color: #2E77D0;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+
+}
+.container-4 .individual .pay{
+    margin: 10px;
+}
+
+.container-4 .button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+.container-4 .button span{
+    font-size: 20px;
+}
+.container-4 .termos p {
+        
+
+}
+.container-footer{
+    padding: 70px;
+    background-color: black;
+}
+.container-footer .logo{
+    position: absolute;
+    margin-left: 10px;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+     
+  }
+.container-footer .listas{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 90px;
+    margin-top: 10px; ;
+    
+    
+}
+.container-footer li p{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    color:gray;
+    font-weight: bold;
+}
+.container-footer p{
+    display: list-item;
+}
+.container-footer li ul:hover{
+    color:#1ED761;
+    cursor: pointer;
+   }
+.container-footer .listas ul{
+    padding:10px;
+    font-weight: bold;
+}
+.container-footer .navbar{
+    color: gray;
+    margin-top: 70px;
+}
+.container-footer .navbar span{
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container-footer .navbar span:hover{
+    color:#1ED761;
+}
+.container-footer .redes-social{
+display: flex;
+flex-direction: row;
+
+
+
+}
+.container-footer .redes-social span i:hover {
+    color:#1ED761;
+    cursor:pointer;   
+}
+.container-footer .redes-social i{
+    font-size: 23px;
+    background: #222326; 
+    border-radius: 50%;   
+    padding: 20px;
+    margin-left: 10px;
+    
+}
